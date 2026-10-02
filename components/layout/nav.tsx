@@ -17,6 +17,7 @@ const LINKS = [
   { href: "/#backend-journey", label: "Backend" },
   { href: "/#featured-projects", label: "Projects" },
   { href: "/#expertise", label: "Expertise" },
+  { href: "/#milestones", label: "Timeline" },
 ];
 
 /** Sticky global nav (§3) — mark, section links, theme toggle, contact CTA. */
