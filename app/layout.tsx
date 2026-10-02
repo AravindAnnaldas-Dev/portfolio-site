@@ -34,33 +34,39 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Aravind Annaldas | Frontend Software Engineer",
+    default: "Aravind Annaldas | Frontend Developer & Software Engineer",
     template: "%s | Aravind Annaldas",
   },
   description:
-    "Frontend Software Engineer building React and Next.js applications — sole frontend developer on a multi-vertical travel booking platform, now expanding into backend development.",
+    "Frontend Developer with 3 years of experience building production web applications using React, Next.js, TypeScript, and JavaScript. Sole frontend engineer on an enterprise travel platform, expanding into backend engineering with Node.js, Express, PostgreSQL, and Prisma.",
   keywords: [
     "Aravind Annaldas",
-    "Frontend Engineer",
+    "Frontend Developer",
+    "Software Engineer",
     "React Developer",
     "Next.js Developer",
     "TypeScript",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma ORM",
+    "Hyderabad",
   ],
   authors: [{ name: "Aravind Annaldas" }],
   creator: "Aravind Annaldas",
   openGraph: {
     type: "website",
     url: SITE_URL,
-    title: "Aravind Annaldas | Frontend Software Engineer",
+    title: "Aravind Annaldas | Frontend Developer & Software Engineer",
     description:
-      "Frontend Software Engineer building React and Next.js applications — sole frontend developer on a multi-vertical travel booking platform, now expanding into backend development.",
+      "Frontend Developer with 3 years of experience building production web applications using React, Next.js, TypeScript, and JavaScript. Expanding into backend engineering with Node.js, Express.js, PostgreSQL, and Prisma.",
     siteName: "Aravind Annaldas",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aravind Annaldas | Frontend Software Engineer",
+    title: "Aravind Annaldas | Frontend Developer & Software Engineer",
     description:
-      "Frontend Software Engineer building React and Next.js applications.",
+      "Frontend Developer with 3 years of experience building production web applications using React, Next.js, TypeScript, and JavaScript.",
   },
   robots: {
     index: true,
@@ -72,16 +78,27 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Aravind Annaldas",
-  jobTitle: "Frontend Software Engineer",
+  jobTitle: "Frontend Developer",
   url: SITE_URL,
   email: "mailto:annaldasaravind897@gmail.com",
+  telephone: "+91-9963213997",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Hyderabad",
+    addressRegion: "Telangana",
+    addressCountry: "India",
+  },
   sameAs: [
     "https://www.linkedin.com/in/aravindannaldas/",
     "https://github.com/AravindAnnaldas-Dev",
   ],
+  alumniOf: {
+    "@type": "EducationalOrganization",
+    name: "Vidya Jyothi Institute of Technology",
+  },
   worksFor: {
     "@type": "Organization",
-    name: "Enspirit Technologies",
+    name: "Enspirit Technology Services Pvt. Ltd.",
   },
 };
 
